@@ -1,0 +1,868 @@
+{
+  "examplesEvaluated": 200,
+  "accuracy": 0.48,
+  "macroF1": 0.44513325495053563,
+  "perIntent": {
+    "delivery_issue": {
+      "precision": 0.8,
+      "recall": 0.30303030303030304,
+      "f1": 0.43956043956043955,
+      "support": 66
+    },
+    "order_issue": {
+      "precision": 0.3333333333333333,
+      "recall": 0.07142857142857142,
+      "f1": 0.11764705882352941,
+      "support": 14
+    },
+    "refund_return": {
+      "precision": 0.8,
+      "recall": 0.36363636363636365,
+      "f1": 0.5000000000000001,
+      "support": 11
+    },
+    "payment_billing": {
+      "precision": 0.8333333333333334,
+      "recall": 0.45454545454545453,
+      "f1": 0.5882352941176471,
+      "support": 11
+    },
+    "account_prime": {
+      "precision": 0.5833333333333334,
+      "recall": 0.4117647058823529,
+      "f1": 0.4827586206896552,
+      "support": 17
+    },
+    "digital_technical": {
+      "precision": 0.6,
+      "recall": 0.375,
+      "f1": 0.4615384615384615,
+      "support": 16
+    },
+    "product_seller_issue": {
+      "precision": 0.5714285714285714,
+      "recall": 0.36363636363636365,
+      "f1": 0.4444444444444444,
+      "support": 11
+    },
+    "other_unclear": {
+      "precision": 0.3712121212121212,
+      "recall": 0.9074074074074074,
+      "f1": 0.5268817204301076,
+      "support": 54
+    }
+  },
+  "confusionMatrix": {
+    "delivery_issue": {
+      "delivery_issue": 20,
+      "order_issue": 0,
+      "refund_return": 1,
+      "payment_billing": 0,
+      "account_prime": 3,
+      "digital_technical": 2,
+      "product_seller_issue": 0,
+      "other_unclear": 40
+    },
+    "order_issue": {
+      "delivery_issue": 0,
+      "order_issue": 1,
+      "refund_return": 0,
+      "payment_billing": 0,
+      "account_prime": 1,
+      "digital_technical": 0,
+      "product_seller_issue": 0,
+      "other_unclear": 12
+    },
+    "refund_return": {
+      "delivery_issue": 1,
+      "order_issue": 0,
+      "refund_return": 4,
+      "payment_billing": 0,
+      "account_prime": 0,
+      "digital_technical": 0,
+      "product_seller_issue": 1,
+      "other_unclear": 5
+    },
+    "payment_billing": {
+      "delivery_issue": 0,
+      "order_issue": 2,
+      "refund_return": 0,
+      "payment_billing": 5,
+      "account_prime": 0,
+      "digital_technical": 0,
+      "product_seller_issue": 1,
+      "other_unclear": 3
+    },
+    "account_prime": {
+      "delivery_issue": 1,
+      "order_issue": 0,
+      "refund_return": 0,
+      "payment_billing": 0,
+      "account_prime": 7,
+      "digital_technical": 0,
+      "product_seller_issue": 0,
+      "other_unclear": 9
+    },
+    "digital_technical": {
+      "delivery_issue": 1,
+      "order_issue": 0,
+      "refund_return": 0,
+      "payment_billing": 1,
+      "account_prime": 0,
+      "digital_technical": 6,
+      "product_seller_issue": 0,
+      "other_unclear": 8
+    },
+    "product_seller_issue": {
+      "delivery_issue": 0,
+      "order_issue": 0,
+      "refund_return": 0,
+      "payment_billing": 0,
+      "account_prime": 0,
+      "digital_technical": 1,
+      "product_seller_issue": 4,
+      "other_unclear": 6
+    },
+    "other_unclear": {
+      "delivery_issue": 2,
+      "order_issue": 0,
+      "refund_return": 0,
+      "payment_billing": 0,
+      "account_prime": 1,
+      "digital_technical": 1,
+      "product_seller_issue": 1,
+      "other_unclear": 49
+    }
+  },
+  "errors": [
+    {
+      "id": "969350",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Missed @123765 for whole day y'day becoz @115821 didn't deliver new phone &amp; I am back  my old #smartphone whom I formatted y'day. Sad :( https://t.co/of4m72XQ5h",
+      "confidence": 0.2
+    },
+    {
+      "id": "1303682",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Amazon Logistics.  Amazon customer service via the app told me they don't have contact with them. 2nd time  that a local order was delayed",
+      "confidence": 0.3
+    },
+    {
+      "id": "1243800",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Amazon Logistics (AMZL_US)",
+      "confidence": 0.2
+    },
+    {
+      "id": "1087666",
+      "gold": "digital_technical",
+      "predicted": "other_unclear",
+      "message": "I have a spotify playlist called 🍉. I can't get my @115833 to play it. I even tried calling it `U+E348` and `58184`. Halp?",
+      "confidence": 0.2
+    },
+    {
+      "id": "2698900",
+      "gold": "delivery_issue",
+      "predicted": "account_prime",
+      "message": "Le service #amazonprime (cv @AmazonHelp ) il est à chier a Paris. Ils livrent à des voisins alors que j’ai jamais demandé ça. Ils disent pas quand ils sont passés. Ils passent en semaine à 11h. J’ai aucune infos de leurs venus. Et quand ils viennent ils cassent mes colis",
+      "confidence": 0.6
+    },
+    {
+      "id": "351807",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@115830 After wasting a Saturday waiting for your delivery (Prime?!), now I need to cancel my Sunday plan to wait for your delivery?? 😡@115830",
+      "confidence": 0.3
+    },
+    {
+      "id": "1383486",
+      "gold": "payment_billing",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp ご丁寧にありがとうございます🙇‍♀️\nギフト券も1円単位で購入出来るのですね、次回からそうします！",
+      "confidence": 0.2
+    },
+    {
+      "id": "2383325",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Found out it was cancelled because you sent me an email. Not in spam. Was already delayed despite being Prime.",
+      "confidence": 0.3
+    },
+    {
+      "id": "1451808",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Oui mais précommander c'est pas dans le but d'éviter ça Non ?",
+      "confidence": 0.2
+    },
+    {
+      "id": "1057353",
+      "gold": "payment_billing",
+      "predicted": "product_seller_issue",
+      "message": "@AmazonHelp failed to resolve my cashback issue. Cheated me with fake promotional offers 🕵️",
+      "confidence": 0.6
+    },
+    {
+      "id": "986397",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "where is my order @115821 @AmazonHelp @115850 . I need an answer.  @115821 failed to deliver it within 2 day guarantee. https://t.co/XW2VGgiMSE",
+      "confidence": 0.2
+    },
+    {
+      "id": "1159023",
+      "gold": "payment_billing",
+      "predicted": "order_issue",
+      "message": "@AmazonHelp Cool. I have cancelled my order. I am afraid transaction do work that way also.",
+      "confidence": 0.6
+    },
+    {
+      "id": "285629",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "I love how I pay for Prime and my package that I really needed in 2 days is going to take over a week to get to me @AmazonHelp 👎🏼👎🏼👎🏼",
+      "confidence": 0.3
+    },
+    {
+      "id": "986250",
+      "gold": "refund_return",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Sir I have contacted your team they say that It was misunderstanding so the refund will be sent to your account in 15 days",
+      "confidence": 0.3
+    },
+    {
+      "id": "1073758",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Habe schon mit Kollegin telefoniert, sie hat alle Hebel in Bewegung gesetzt, dass Pakete ankommen. Trotzdem sollte der Assi geprüft werden.",
+      "confidence": 0.2
+    },
+    {
+      "id": "831775",
+      "gold": "other_unclear",
+      "predicted": "product_seller_issue",
+      "message": "@AmazonHelp @115850  And those mails whom you are talking about are just kind of mails in which you and your support teams just want to provide a feedback if it would be positive from customer's side. I'll never provide you a positive feedback until I'll not be able to receive my product",
+      "confidence": 0.6
+    },
+    {
+      "id": "1125050",
+      "gold": "product_seller_issue",
+      "predicted": "digital_technical",
+      "message": "Paid $80 for a ring light and that shit not working . @115821 run my money https://t.co/niNCeWAgnw",
+      "confidence": 0.6
+    },
+    {
+      "id": "2119249",
+      "gold": "refund_return",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp I am really upset because I waited for that price drop to buy this game and now I have to wait all over again once I get refunded and just hope it doesn't happen again.",
+      "confidence": 0.3
+    },
+    {
+      "id": "926294",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Let down by prime, lied to and told my prime delivery won't come till the 20th of October. Customer service appalling @115821",
+      "confidence": 0.3
+    },
+    {
+      "id": "2291327",
+      "gold": "product_seller_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp 譜面台ケースに穴あいてたよ♡♡\n譜面台の高さ調節が壊れてる♡♡",
+      "confidence": 0.2
+    },
+    {
+      "id": "940496",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@115830 is telling me that they've my parcel has been delivered by @126705 but I don't have a card telling me where it is!",
+      "confidence": 0.3
+    },
+    {
+      "id": "549327",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Nouvelle date de livraison estimée : 2 déc. - 6 déc. \nNous sommes désolés que votre colis soit en retard. Si vous ne l’avez pas reçu d’ici le jeudi 7 décembre, veuillez revenir sur cette page pour voir les options qui s'offrent à vous.",
+      "confidence": 0.2
+    },
+    {
+      "id": "1434011",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Letting @115821 box dry after an afternoon in the rain. Any way to request @115817 as our dedicated carrier? They never do this. https://t.co/1bNpm6vL8J",
+      "confidence": 0.2
+    },
+    {
+      "id": "1299508",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp \nDint gt the email of my order placement😕",
+      "confidence": 0.2
+    },
+    {
+      "id": "1916188",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "プライム会員で良かった",
+      "confidence": 0.2
+    },
+    {
+      "id": "1387349",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp It was 14-17 Oct.",
+      "confidence": 0.2
+    },
+    {
+      "id": "384160",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp yesterday I had ordered Canon DSLR today there was guarantee delivery date but still is not dispatched by Amazon seller. Why",
+      "confidence": 0.3
+    },
+    {
+      "id": "2321033",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@115821 Hi can some one from amazon please call me regarding my stolen parcels on 07967101515",
+      "confidence": 0.2
+    },
+    {
+      "id": "1048795",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "Ey! Girlies @2602 its been 2 months &amp; my CD is still in back order as per #musictoday. Pls send some signed Vinyl &amp; CD @115821 bettr",
+      "confidence": 0.2
+    },
+    {
+      "id": "1004668",
+      "gold": "product_seller_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp These are not book reviews :( https://t.co/hP3o5uwzFB",
+      "confidence": 0.2
+    },
+    {
+      "id": "2748346",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "I was looking forward to my Amazon order all day. But some asshole stole it mid transit. Fuck you and I hope karma gets you back. 🖕🏼🖕🏼🖕🏼",
+      "confidence": 0.2
+    },
+    {
+      "id": "1219182",
+      "gold": "other_unclear",
+      "predicted": "digital_technical",
+      "message": "@AmazonHelp please stop suggesting this to me, i am happily married https://t.co/5fGD2En2xQ",
+      "confidence": 0.6
+    },
+    {
+      "id": "2330914",
+      "gold": "digital_technical",
+      "predicted": "other_unclear",
+      "message": "@115833 @115888 I emailed but didn’t hear back and this has become a major usability problem for me!",
+      "confidence": 0.2
+    },
+    {
+      "id": "1326976",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "@115830 ordered 4 prime items yesterday and they aren’t arriving until Monday. I would have thought tomorrow at the latest. Thought my prime membership meant next day delivery?!",
+      "confidence": 0.3
+    },
+    {
+      "id": "1325490",
+      "gold": "account_prime",
+      "predicted": "delivery_issue",
+      "message": "@115830 why when I order anything on Amazon today (Friday) am I being told it won't arrive until Monday and not next day?",
+      "confidence": 0.6
+    },
+    {
+      "id": "2515876",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Bold move @115821 , delivering a $60 PS4 controller and leaving it in my apartment walk way for 5 hours.\n\nHowever, some faith has been restored in humanity.\n\nThat or just a slow foot traffic day by my apartment.",
+      "confidence": 0.2
+    },
+    {
+      "id": "406598",
+      "gold": "digital_technical",
+      "predicted": "other_unclear",
+      "message": "@115830 @137949 when i ask alexa to play a song, she automatically defaults to amazon music and not spotify... how can i designate?",
+      "confidence": 0.2
+    },
+    {
+      "id": "400343",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp The call disconnects saying that you were unable to find my order. Been trying to reach you from past 10 days. Please dm me or email me",
+      "confidence": 0.2
+    },
+    {
+      "id": "1550783",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Didn't care that the reason I am upset is cause I'm not receiving the 2 day shipping I pay for.",
+      "confidence": 0.2
+    },
+    {
+      "id": "754592",
+      "gold": "other_unclear",
+      "predicted": "delivery_issue",
+      "message": "I love @115821 one hour Morrison's delivery but the packaging... giant bag for  tub of houmous... 7 bags for 8 things https://t.co/GSHKa8ZnYE",
+      "confidence": 0.6
+    },
+    {
+      "id": "1290964",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Y a juste écrit Amazon logistics",
+      "confidence": 0.2
+    },
+    {
+      "id": "1670686",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "@118919 hi i am purchased 1000rs Amazon gift card but i don't get anything and my account block plz help me https://t.co/QjAMUfVMyD",
+      "confidence": 0.3
+    },
+    {
+      "id": "1336209",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@115830 28 days I've been waiting for rope which can arrive as soon as 5-7 days. Make it clear products are shipping from China...... https://t.co/v2sZDqbRP2",
+      "confidence": 0.3
+    },
+    {
+      "id": "311326",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Nah don't worry about it, it's probably chilling at the town post office for the time being; thanks tho have a nice weekend",
+      "confidence": 0.2
+    },
+    {
+      "id": "65847",
+      "gold": "refund_return",
+      "predicted": "other_unclear",
+      "message": "@123644  \nHi I ordered an item earlier, the money was deducted from my card,cancelled it but still haven’t received my refund! It’s impossible to contact customer service..💩💩💩",
+      "confidence": 0.3
+    },
+    {
+      "id": "2964094",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@120540 Buonasera,sono cliente Prime dall’anno 2012. Ho acquistato moltissime cose.Da circa sei mesi il Vostro servizio di spedizioni non funziona:oggi mi dovevano recapitare 5 prodotti, e solo 2 lasciati al bar con mia moglie a casa l’intero giorno.Mi cancellerò quanto prima.",
+      "confidence": 0.3
+    },
+    {
+      "id": "385945",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp I got that email in September with no other update. I checked the order status Sunday to see if it shipped when I saw the new date.",
+      "confidence": 0.2
+    },
+    {
+      "id": "145688",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "@115821 what happened to next day delivery i pay a subscription for next day delivery nothing is on next day why?",
+      "confidence": 0.3
+    },
+    {
+      "id": "149116",
+      "gold": "payment_billing",
+      "predicted": "other_unclear",
+      "message": "@116928 tengo una duda. Hay juegos que, como éste de la foto, pone 3x2. Escojo 3 juegos de esta promoción y al ir a pagar no me aplica 3x2 sino q me cobra los 3. Qué debo hacer? https://t.co/TEQdqb3FNY",
+      "confidence": 0.2
+    },
+    {
+      "id": "844119",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@117086 Oi, quando abre a pré venda do monstro Xbox One X da @166780 ?",
+      "confidence": 0.2
+    },
+    {
+      "id": "2725926",
+      "gold": "delivery_issue",
+      "predicted": "digital_technical",
+      "message": "@AmazonHelp No. I was just apologized to over and over again, which I appreciate, but I wasn't given any real feedback. There should be an option to not use your carrier service because it clearly shouldn't have been rolled out yet.",
+      "confidence": 0.6
+    },
+    {
+      "id": "2193252",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Ach, @116316, warum bestelle ich denn Bücher zum Erscheinungstermin vor, wenn sie dann fast 'ne Woche danach geliefert werden!? https://t.co/TkR7ewvxdx",
+      "confidence": 0.2
+    },
+    {
+      "id": "2836996",
+      "gold": "product_seller_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp falei na hora da raiva, apesar de alguns livros vierem todo amassado mas fora isso tá ok, amo vcs sim bj",
+      "confidence": 0.2
+    },
+    {
+      "id": "1387753",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "Amazonから\n私が注文した覚えのない\n商品が届きました…\n\nこれは…一体…ww https://t.co/LmPjwjhSb9",
+      "confidence": 0.2
+    },
+    {
+      "id": "1027473",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@115850 ORDER # 406-0044233-9534752 stil nt dlvrd vpoor srvc from amazon.",
+      "confidence": 0.2
+    },
+    {
+      "id": "1911642",
+      "gold": "other_unclear",
+      "predicted": "delivery_issue",
+      "message": "Recently ordered a full book series I got a taste of back in secondary school. Consisting of 18 books as of now (more are being worked on). Been getting them delivered bit by bit, over the past two weeks. All of them arrived early. Thanks @115830",
+      "confidence": 0.8
+    },
+    {
+      "id": "1623443",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Will I still receive my order?",
+      "confidence": 0.2
+    },
+    {
+      "id": "1084966",
+      "gold": "delivery_issue",
+      "predicted": "account_prime",
+      "message": "@116875 Tengo un pedido que debio llegar el 11 de octubre, aun con amazon prime, esto es inaceptable, para que pago prime? #AmazonFail",
+      "confidence": 0.6
+    },
+    {
+      "id": "1155174",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "@115850 @AmazonHelp how can I contact you. Your customer care call is disconnecting continuously saying \"sorry ur order is not find\"",
+      "confidence": 0.2
+    },
+    {
+      "id": "2972860",
+      "gold": "refund_return",
+      "predicted": "delivery_issue",
+      "message": "@115821 I just found a package I thought I sent for return weeks ago. Is it too late? If it weren’t for the shoes being too small, I’d eat it, but I really hope I have time.",
+      "confidence": 0.7
+    },
+    {
+      "id": "279407",
+      "gold": "refund_return",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp I have done multiple time . You owe me my money, you closed my amazon account. How can you say you wil not refund my money",
+      "confidence": 0.3
+    },
+    {
+      "id": "576476",
+      "gold": "digital_technical",
+      "predicted": "payment_billing",
+      "message": "@AmazonHelp de: we’re in Austria 🇦🇹 (not Australia 🇦🇺), can you unblock our Alexa/services if I send proof of payment? it’s horrible to sit in the dark rn lol",
+      "confidence": 0.6
+    },
+    {
+      "id": "1632186",
+      "gold": "payment_billing",
+      "predicted": "order_issue",
+      "message": "@AmazonHelp Mas agora temos um problema... vcs cancelaram a cobrança!",
+      "confidence": 0.6
+    },
+    {
+      "id": "1430394",
+      "gold": "payment_billing",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Amazonが販売、発送の商品を7月末に注文したしたが未だにお支払い番号がきません。\n一度問い合わせたのですが、入荷が遅れている為もう少しお待ち下さいという旨の返信が来ましたが未だにお支払い番号が来ないのですがもう一度問い合わせた方が良いのですか？",
+      "confidence": 0.2
+    },
+    {
+      "id": "1602582",
+      "gold": "digital_technical",
+      "predicted": "other_unclear",
+      "message": "Raja the Great telugu Movie when u are uploading @119625",
+      "confidence": 0.2
+    },
+    {
+      "id": "2630049",
+      "gold": "digital_technical",
+      "predicted": "other_unclear",
+      "message": "@115833 my echo dots won’t play music! \n\nAlexa says “I am not sure what went wrong”\n\n(Wifi connection &amp; all other functionality is good)\n\nPlease advise",
+      "confidence": 0.2
+    },
+    {
+      "id": "1662597",
+      "gold": "product_seller_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp The link is meant to be 'Marvel Studios Collector's Edition Box Set Phase 2 [Blu-ray] [Region Free] Blu-ray'.",
+      "confidence": 0.2
+    },
+    {
+      "id": "1642700",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Please your system has updated that changed to 9th.",
+      "confidence": 0.2
+    },
+    {
+      "id": "837851",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "アー Amazonプライムそういえば無料お試しとやらを試したんだった・・・期間過ぎたら勝手に入会扱いにして会費取られるんやな・・・ちゃんと見てなかった・・・",
+      "confidence": 0.2
+    },
+    {
+      "id": "2758110",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "もうとっくにAmazonの履歴確認したら配達完了済になってるのに配達完了メール来ないから受け取り番号分からなくて引き換えレシート発行出来ないし、そもそも指定の場所に届いてない？",
+      "confidence": 0.2
+    },
+    {
+      "id": "2459922",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@704439 @115850 Postponed to what date?",
+      "confidence": 0.2
+    },
+    {
+      "id": "799637",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp By 8pm",
+      "confidence": 0.2
+    },
+    {
+      "id": "1544059",
+      "gold": "delivery_issue",
+      "predicted": "digital_technical",
+      "message": "@AmazonHelp This one's USPS, but it's happened with UPS, too. My stuff frequently gets sent to the incorrect facility. 😒",
+      "confidence": 0.6
+    },
+    {
+      "id": "481676",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Alô @117086 cadê meu pedido? Já falei com 2 atendentes do SAC, e nada dos meus livros aparecerem 😔💔",
+      "confidence": 0.2
+    },
+    {
+      "id": "149305",
+      "gold": "refund_return",
+      "predicted": "product_seller_issue",
+      "message": "@115850 Even after sending request so many times , no one came to receive my product which I got defective! I am really pissed off with your services!",
+      "confidence": 0.6
+    },
+    {
+      "id": "117832",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Waiting on @115821 to ship my @142136 #anthology is like watching paint dry... instead of today arriving it'll now be the 30th... 😭",
+      "confidence": 0.2
+    },
+    {
+      "id": "339160",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp What is going on with the shipping of John Green new book Turtles All The Way Down? My book was supposed to ship yesterday and",
+      "confidence": 0.2
+    },
+    {
+      "id": "1614194",
+      "gold": "digital_technical",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp 届いてます！🙌ですがURLから飛ぶのはどうすればいいですか？",
+      "confidence": 0.2
+    },
+    {
+      "id": "343011",
+      "gold": "account_prime",
+      "predicted": "other_unclear",
+      "message": "caro sig. @120540 come faccio a disattivare l'abbonamento a prime video senza disattivare l'abbonamento a prime ? perché dal sito non è chiara la procedura",
+      "confidence": 0.3
+    },
+    {
+      "id": "586833",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Yes. I've contacted them twice in the past week. They don't answer. USPS has no answer,  Amazon can't answer because USPS doesn't update the tracking. It's over $100 item .",
+      "confidence": 0.2
+    },
+    {
+      "id": "779586",
+      "gold": "refund_return",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Thanks. Got the pick up",
+      "confidence": 0.2
+    },
+    {
+      "id": "2795257",
+      "gold": "other_unclear",
+      "predicted": "account_prime",
+      "message": "@AmazonHelp Além de entregar rápido ainda respondem? 😍\n\nAcho que vou ler na ordem mesmo, mas só pq são novos. Depois da primeira leitura completa eu fico relendo no aleatório, só pra matar a saudade 😊",
+      "confidence": 0.6
+    },
+    {
+      "id": "2647212",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Really getting tired of @115821 Prime shipments taking longer than they say. I ordered headlights expecting them today. Prob should buy local and cancel order.",
+      "confidence": 0.3
+    },
+    {
+      "id": "1152621",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Sólo uno que espero me llegue mañana",
+      "confidence": 0.2
+    },
+    {
+      "id": "894703",
+      "gold": "order_issue",
+      "predicted": "account_prime",
+      "message": "@AmazonHelp My sister preordered it back in July and it never shipped but she said the money came out of her account and the book came out in September",
+      "confidence": 0.6
+    },
+    {
+      "id": "1097692",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "A bit disappointed that I bought something that has Prime marked on it and it won't be here for another week, possibly. @AmazonHelp",
+      "confidence": 0.3
+    },
+    {
+      "id": "1100516",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp received the attached 2 days ago and still no delivery... for the delivery charges you charge this isnt right and I really shouldn't be waiting over a week anyway https://t.co/R6ZPf9z8vD",
+      "confidence": 0.3
+    },
+    {
+      "id": "67559",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp I am only available to accept the parcel during specific times and do not want it left unattended given its value. My perspective is that it’s down to you to now ensure you deliver it during the times I am available given that you have failed to meet the selected NDD.",
+      "confidence": 0.2
+    },
+    {
+      "id": "318424",
+      "gold": "delivery_issue",
+      "predicted": "refund_return",
+      "message": "@115850 order no 405-9749390-2072353... No one even attempted to deliver it and now I got the message that it's being returned back..",
+      "confidence": 0.6
+    },
+    {
+      "id": "993281",
+      "gold": "delivery_issue",
+      "predicted": "account_prime",
+      "message": "Warte seit Tagen auf mein mit #prime bestelltes Samsung S8+ @AmazonHelp  zeigt sich unkulant- bin jetzt wieder #teameinzelhandel #primekunde",
+      "confidence": 0.6
+    },
+    {
+      "id": "2287113",
+      "gold": "digital_technical",
+      "predicted": "other_unclear",
+      "message": "Is @115821 search engine down? I can't do a sucessful search for any item on the website.",
+      "confidence": 0.2
+    },
+    {
+      "id": "2722696",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "翌日配達とかAmazonさん有能…楽しみが増えたので、明日仕事がんばる(*´-`)",
+      "confidence": 0.2
+    },
+    {
+      "id": "1379896",
+      "gold": "digital_technical",
+      "predicted": "delivery_issue",
+      "message": "@AmazonHelp Yet not available..any particular day when the latest episode of @41845 is updated?????",
+      "confidence": 0.6
+    },
+    {
+      "id": "1563766",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@115850 @115821 @115851\ndelivery n cust care lie on delivery of a prdct. Showin appt rescheduled w/o contacting me. #AmazonLogistics",
+      "confidence": 0.3
+    },
+    {
+      "id": "660398",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "Ma dernière commande est en retard d’une semaine, Ni la commande de remplacement, ni le remboursement ne sont possibles.\nJe fais quoi maintenant @AmazonHelp ?\nJ’attends tranquillement qu’on me dise sue mon colis est pommé ou je n’sais quoi ?",
+      "confidence": 0.2
+    },
+    {
+      "id": "1167720",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "real talk when is @115821 bringing our Halloween candy",
+      "confidence": 0.2
+    },
+    {
+      "id": "1776427",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "I'm sorry @115821 ...but I don't think this was a good solution for slow delivery time. 😳#amazonprime #awkwardsituations https://t.co/dmzdjb6OzM",
+      "confidence": 0.3
+    },
+    {
+      "id": "923732",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Je vais essayer de les contacter mais comme selon le site, le colis n'est pas en retard où puis-je les contacter ?",
+      "confidence": 0.2
+    },
+    {
+      "id": "2171264",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Two orders screwed up in one week - Amazon is definitely spiraling downward !!",
+      "confidence": 0.2
+    },
+    {
+      "id": "2094027",
+      "gold": "digital_technical",
+      "predicted": "other_unclear",
+      "message": "さっそくAmazon Music Unlimited登録してみたけど、ゆゆ式やけものフレンズとかのキャラソンも聞けてすごーい！ https://t.co/KK6IHXqNE8",
+      "confidence": 0.2
+    },
+    {
+      "id": "429045",
+      "gold": "product_seller_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp Si, vendido y enviado por amazon",
+      "confidence": 0.2
+    },
+    {
+      "id": "398796",
+      "gold": "order_issue",
+      "predicted": "other_unclear",
+      "message": "@115850 my order no is\n\n404-6253992-4618766",
+      "confidence": 0.2
+    },
+    {
+      "id": "2888311",
+      "gold": "delivery_issue",
+      "predicted": "other_unclear",
+      "message": "@AmazonHelp I called your customer care number and even they are not sure where my package is. I don't care about inconvenience anymore. I want the package in my hand by the end of the day. Make it happen amazon",
+      "confidence": 0.3
+    },
+    {
+      "id": "1279780",
+      "gold": "product_seller_issue",
+      "predicted": "other_unclear",
+      "message": "Dear @115850 , I want to buy this muffler. It is not available in India. Can you provide it ? https://t.co/Oog8gh5GHz",
+      "confidence": 0.2
+    }
+  ],
+  "confidenceNote": "Classifier confidence is a heuristic score, not a probability."
+}

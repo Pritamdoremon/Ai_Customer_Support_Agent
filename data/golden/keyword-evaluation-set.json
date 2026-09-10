@@ -1,0 +1,1619 @@
+{
+  "brand": "AmazonHelp",
+  "source_split": "evaluation",
+  "sample_size": 200,
+  "random_seed": 20260910,
+  "allowed_gold_intents": [
+    "delivery_issue",
+    "order_issue",
+    "refund_return",
+    "payment_billing",
+    "account_prime",
+    "digital_technical",
+    "product_seller_issue",
+    "other_unclear"
+  ],
+  "annotation_note": "Fill gold_intent using human judgment. Do not copy the classifier prediction.",
+  "examples": [
+    {
+      "id": "922225",
+      "conversation_id": "922225",
+      "customer_tweet_id": "922225",
+      "brand_tweet_id": "922224",
+      "customer_message": "Seriously @115821? So much packaging and irony! https://t.co/fW08d4YxeF",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "969350",
+      "conversation_id": "969350",
+      "customer_tweet_id": "969350",
+      "brand_tweet_id": "969348",
+      "customer_message": "Missed @123765 for whole day y'day becoz @115821 didn't deliver new phone &amp; I am back  my old #smartphone whom I formatted y'day. Sad :( https://t.co/of4m72XQ5h",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1303682",
+      "conversation_id": "1303683",
+      "customer_tweet_id": "1303682",
+      "brand_tweet_id": "1303684",
+      "customer_message": "@AmazonHelp Amazon Logistics.  Amazon customer service via the app told me they don't have contact with them. 2nd time  that a local order was delayed",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1243800",
+      "conversation_id": "1243798",
+      "customer_tweet_id": "1243800",
+      "brand_tweet_id": "1243801",
+      "customer_message": "@AmazonHelp Amazon Logistics (AMZL_US)",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "755717",
+      "conversation_id": "755717",
+      "customer_tweet_id": "755717",
+      "brand_tweet_id": "755715",
+      "customer_message": "@AmazonHelp\n\nNeed to get a refund of this product that I returned. ResQTech Pressure Washer. https://t.co/kIxVgIMHQk",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "1087666",
+      "conversation_id": "1087666",
+      "customer_tweet_id": "1087666",
+      "brand_tweet_id": "1087665",
+      "customer_message": "I have a spotify playlist called 🍉. I can't get my @115833 to play it. I even tried calling it `U+E348` and `58184`. Halp?",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "2830678",
+      "conversation_id": "2830678",
+      "customer_tweet_id": "2830678",
+      "brand_tweet_id": "2830677",
+      "customer_message": "- Comment devenir riche ?\n- Vends ton livre 999€ sur @120533 https://t.co/kVxcYF4UEd",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "530823",
+      "conversation_id": "530824",
+      "customer_tweet_id": "530823",
+      "brand_tweet_id": "530829",
+      "customer_message": "@AmazonHelp  https://t.co/IKAdhUoixT",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "931348",
+      "conversation_id": "931351",
+      "customer_tweet_id": "931348",
+      "brand_tweet_id": "931346",
+      "customer_message": "@AmazonHelp Well not that I know near me. \nWhy do you need that ?\nI just wanted to order and now my account is locked !",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "93682",
+      "conversation_id": "93684",
+      "customer_tweet_id": "93682",
+      "brand_tweet_id": "93681",
+      "customer_message": "@AmazonHelp Yes, but this is becoming unacceptable. Every other order from you is late. Spoke to a rep and saw that one part of my order was available via @117795 but wouldn’t schedule the delivery for today.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2698900",
+      "conversation_id": "2698900",
+      "customer_tweet_id": "2698900",
+      "brand_tweet_id": "2698899",
+      "customer_message": "Le service #amazonprime (cv @AmazonHelp ) il est à chier a Paris. Ils livrent à des voisins alors que j’ai jamais demandé ça. Ils disent pas quand ils sont passés. Ils passent en semaine à 11h. J’ai aucune infos de leurs venus. Et quand ils viennent ils cassent mes colis",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2905099",
+      "conversation_id": "2905099",
+      "customer_tweet_id": "2905099",
+      "brand_tweet_id": "2905098",
+      "customer_message": "Shoutout to @115821 for excellent customer service!",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "351807",
+      "conversation_id": "351814",
+      "customer_tweet_id": "351807",
+      "brand_tweet_id": "351803",
+      "customer_message": "@115830 After wasting a Saturday waiting for your delivery (Prime?!), now I need to cancel my Sunday plan to wait for your delivery?? 😡@115830",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1383486",
+      "conversation_id": "1383487",
+      "customer_tweet_id": "1383486",
+      "brand_tweet_id": "1383488",
+      "customer_message": "@AmazonHelp ご丁寧にありがとうございます🙇‍♀️\nギフト券も1円単位で購入出来るのですね、次回からそうします！",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "2383325",
+      "conversation_id": "2383323",
+      "customer_tweet_id": "2383325",
+      "brand_tweet_id": "2383326",
+      "customer_message": "@AmazonHelp Found out it was cancelled because you sent me an email. Not in spam. Was already delayed despite being Prime.",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "1451808",
+      "conversation_id": "1451814",
+      "customer_tweet_id": "1451808",
+      "brand_tweet_id": "1451809",
+      "customer_message": "@AmazonHelp Oui mais précommander c'est pas dans le but d'éviter ça Non ?",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "1057353",
+      "conversation_id": "1057353",
+      "customer_tweet_id": "1057353",
+      "brand_tweet_id": "1057351",
+      "customer_message": "@AmazonHelp failed to resolve my cashback issue. Cheated me with fake promotional offers 🕵️",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "490478",
+      "conversation_id": "490478",
+      "customer_tweet_id": "490478",
+      "brand_tweet_id": "490476",
+      "customer_message": "#amzl_us getting tired of delays.. first amzl_us package delivered to a neighbor, now a second after being delayed by a WEEK being delivered in St. Petersburg. I dont LIVE in St. Petersburg? And 3rd package hasnt even been shipped but it was expected 29th Im tired of using amazon",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "47878",
+      "conversation_id": "47874",
+      "customer_tweet_id": "47878",
+      "brand_tweet_id": "47879",
+      "customer_message": "@AmazonHelp Just that they will either refund me 50% of what I paid for the coat or they send me another. When I asked if I'd be paying for another",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "986397",
+      "conversation_id": "986397",
+      "customer_tweet_id": "986397",
+      "brand_tweet_id": "986392,986400",
+      "customer_message": "where is my order @115821 @AmazonHelp @115850 . I need an answer.  @115821 failed to deliver it within 2 day guarantee. https://t.co/XW2VGgiMSE",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "922216",
+      "conversation_id": "922216",
+      "customer_tweet_id": "922216",
+      "brand_tweet_id": "922214",
+      "customer_message": "@115821 @AmazonHelp What is going on with you recently?? https://t.co/YlStGbWgqc",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "748733",
+      "conversation_id": "748733",
+      "customer_tweet_id": "748733",
+      "brand_tweet_id": "748731",
+      "customer_message": "@115821 ARE YOU working on fixing my app or do I have to suffer without you for an entire day? 😭😭😭",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "1159023",
+      "conversation_id": "1159026",
+      "customer_tweet_id": "1159023",
+      "brand_tweet_id": "1159022,1159024",
+      "customer_message": "@AmazonHelp Cool. I have cancelled my order. I am afraid transaction do work that way also.",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "2685364",
+      "conversation_id": "2685364",
+      "customer_tweet_id": "2685364",
+      "brand_tweet_id": "2685363,2685365",
+      "customer_message": "@115850 any idea what's going on? Kindly help! https://t.co/GD2uYcs0cw",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "285629",
+      "conversation_id": "285629",
+      "customer_tweet_id": "285629",
+      "brand_tweet_id": "285627",
+      "customer_message": "I love how I pay for Prime and my package that I really needed in 2 days is going to take over a week to get to me @AmazonHelp 👎🏼👎🏼👎🏼",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2059512",
+      "conversation_id": "2059512",
+      "customer_tweet_id": "2059512",
+      "brand_tweet_id": "2059510",
+      "customer_message": "@AmazonHelp your help system is horrible.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "278717",
+      "conversation_id": "278717",
+      "customer_tweet_id": "278717",
+      "brand_tweet_id": "278716",
+      "customer_message": "@AmazonHelp I have ordered few things yesterday and it is still not dispatched. Very urgent. Now amazon is delaying the shipping.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2689315",
+      "conversation_id": "2689315",
+      "customer_tweet_id": "2689315",
+      "brand_tweet_id": "2689313",
+      "customer_message": "@115821 I cancelled my prime trial a month ago and it said I wouldn’t be charged when the trial ended but I still was !!! Fix this &gt;:(",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "986250",
+      "conversation_id": "986252",
+      "customer_tweet_id": "986250",
+      "brand_tweet_id": "986253,986254",
+      "customer_message": "@AmazonHelp Sir I have contacted your team they say that It was misunderstanding so the refund will be sent to your account in 15 days",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "2969521",
+      "conversation_id": "2969521",
+      "customer_tweet_id": "2969521",
+      "brand_tweet_id": "2969519",
+      "customer_message": "A few people were on here the other day complaining to @115821 about their delayed purchases and I see why. Where is my stuff?!",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "896665",
+      "conversation_id": "896667",
+      "customer_tweet_id": "896665",
+      "brand_tweet_id": "896666",
+      "customer_message": "@AmazonHelp En eso estoy! Saludos!! https://t.co/aDmJUotWIs",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2171075",
+      "conversation_id": "2171076",
+      "customer_tweet_id": "2171075",
+      "brand_tweet_id": "2171077",
+      "customer_message": "@AmazonHelp Yes. Game released today. In the Amazon app it says out for delivery and arriving today buts it's now almost 10pm with nothing delivered. Have an e-mail saying it will take another day or two to arrive. https://t.co/4PAALx15Uo",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1073758",
+      "conversation_id": "1073760",
+      "customer_tweet_id": "1073758",
+      "brand_tweet_id": "1073761",
+      "customer_message": "@AmazonHelp Habe schon mit Kollegin telefoniert, sie hat alle Hebel in Bewegung gesetzt, dass Pakete ankommen. Trotzdem sollte der Assi geprüft werden.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "831775",
+      "conversation_id": "831767",
+      "customer_tweet_id": "831775",
+      "brand_tweet_id": "831777,831778",
+      "customer_message": "@AmazonHelp @115850  And those mails whom you are talking about are just kind of mails in which you and your support teams just want to provide a feedback if it would be positive from customer's side. I'll never provide you a positive feedback until I'll not be able to receive my product",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1125050",
+      "conversation_id": "1125050",
+      "customer_tweet_id": "1125050",
+      "brand_tweet_id": "1125049",
+      "customer_message": "Paid $80 for a ring light and that shit not working . @115821 run my money https://t.co/niNCeWAgnw",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "2119249",
+      "conversation_id": "2119254",
+      "customer_tweet_id": "2119249",
+      "brand_tweet_id": "2119247",
+      "customer_message": "@AmazonHelp I am really upset because I waited for that price drop to buy this game and now I have to wait all over again once I get refunded and just hope it doesn't happen again.",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "171049",
+      "conversation_id": "171049",
+      "customer_tweet_id": "171049",
+      "brand_tweet_id": "171048",
+      "customer_message": "@115821 box sizes are out of control! 2 items on top all that was in this giant box???  Fast and accurate orders, not complaining just confused? https://t.co/l0wPqFNw9Y",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1563559",
+      "conversation_id": "1489796",
+      "customer_tweet_id": "1563559",
+      "brand_tweet_id": "1563557",
+      "customer_message": "@482844 @120533 Le colis arrivera lundi. #Lol",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1429179",
+      "conversation_id": "1429170",
+      "customer_tweet_id": "1429179",
+      "brand_tweet_id": "1429180",
+      "customer_message": "@AmazonHelp Already received a revert from your team when I post my concern on the shared link and of no use. Requesting a call",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "926294",
+      "conversation_id": "926294",
+      "customer_tweet_id": "926294",
+      "brand_tweet_id": "926292",
+      "customer_message": "Let down by prime, lied to and told my prime delivery won't come till the 20th of October. Customer service appalling @115821",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2291327",
+      "conversation_id": "2291325",
+      "customer_tweet_id": "2291327",
+      "brand_tweet_id": "2291328",
+      "customer_message": "@AmazonHelp 譜面台ケースに穴あいてたよ♡♡\n譜面台の高さ調節が壊れてる♡♡",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "940496",
+      "conversation_id": "940496",
+      "customer_tweet_id": "940496",
+      "brand_tweet_id": "940494",
+      "customer_message": "@115830 is telling me that they've my parcel has been delivered by @126705 but I don't have a card telling me where it is!",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1780035",
+      "conversation_id": "1780035",
+      "customer_tweet_id": "1780035",
+      "brand_tweet_id": "1780030",
+      "customer_message": "The customer service associates at @115821 are a bunch of liars. I used to think they had good customer service, but not anymore!",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "549327",
+      "conversation_id": "549329",
+      "customer_tweet_id": "549327",
+      "brand_tweet_id": "549326",
+      "customer_message": "@AmazonHelp Nouvelle date de livraison estimée : 2 déc. - 6 déc. \nNous sommes désolés que votre colis soit en retard. Si vous ne l’avez pas reçu d’ici le jeudi 7 décembre, veuillez revenir sur cette page pour voir les options qui s'offrent à vous.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1434011",
+      "conversation_id": "1434011",
+      "customer_tweet_id": "1434011",
+      "brand_tweet_id": "1434010",
+      "customer_message": "Letting @115821 box dry after an afternoon in the rain. Any way to request @115817 as our dedicated carrier? They never do this. https://t.co/1bNpm6vL8J",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1299508",
+      "conversation_id": "1299508",
+      "customer_tweet_id": "1299508",
+      "brand_tweet_id": "1299507",
+      "customer_message": "@AmazonHelp \nDint gt the email of my order placement😕",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "1916188",
+      "conversation_id": "1916188",
+      "customer_tweet_id": "1916188",
+      "brand_tweet_id": "1916187",
+      "customer_message": "プライム会員で良かった",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "332383",
+      "conversation_id": "332383",
+      "customer_tweet_id": "332383",
+      "brand_tweet_id": "332382",
+      "customer_message": "@115850 very poor services. No delivery attempted but showing as delivery attempted.  Big liar... Very pathetic experience",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1387349",
+      "conversation_id": "1387320",
+      "customer_tweet_id": "1387349",
+      "brand_tweet_id": "1387350",
+      "customer_message": "@AmazonHelp It was 14-17 Oct.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "384160",
+      "conversation_id": "384160",
+      "customer_tweet_id": "384160",
+      "brand_tweet_id": "384158,384181",
+      "customer_message": "@AmazonHelp yesterday I had ordered Canon DSLR today there was guarantee delivery date but still is not dispatched by Amazon seller. Why",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "2321033",
+      "conversation_id": "2321033",
+      "customer_tweet_id": "2321033",
+      "brand_tweet_id": "2321032",
+      "customer_message": "@115821 Hi can some one from amazon please call me regarding my stolen parcels on 07967101515",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1048795",
+      "conversation_id": "1048795",
+      "customer_tweet_id": "1048795",
+      "brand_tweet_id": "1048793",
+      "customer_message": "Ey! Girlies @2602 its been 2 months &amp; my CD is still in back order as per #musictoday. Pls send some signed Vinyl &amp; CD @115821 bettr",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "1004668",
+      "conversation_id": "1004667",
+      "customer_tweet_id": "1004668",
+      "brand_tweet_id": "1004669",
+      "customer_message": "@AmazonHelp These are not book reviews :( https://t.co/hP3o5uwzFB",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "179374",
+      "conversation_id": "179401",
+      "customer_tweet_id": "179374",
+      "brand_tweet_id": "179376",
+      "customer_message": "@AmazonHelp Hye @115850 what are you doing? Another time period for resolution has been passed away now tell what did i do? And u also",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1014287",
+      "conversation_id": "1014288",
+      "customer_tweet_id": "1014287",
+      "brand_tweet_id": "1014289",
+      "customer_message": "@AmazonHelp Hahahaha adorei! ❤️",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2748346",
+      "conversation_id": "2748346",
+      "customer_tweet_id": "2748346",
+      "brand_tweet_id": "2748345",
+      "customer_message": "I was looking forward to my Amazon order all day. But some asshole stole it mid transit. Fuck you and I hope karma gets you back. 🖕🏼🖕🏼🖕🏼",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2153973",
+      "conversation_id": "2153977",
+      "customer_tweet_id": "2153973",
+      "brand_tweet_id": "2153975",
+      "customer_message": "@AmazonHelp It currently says:\n\n\"Delay in delivery due to external factors\".\n\nIt has not been updated since yesterday evening at 7:24pm. That's the time when the delivery man notified me the package was not in his truck.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "144076",
+      "conversation_id": "144076",
+      "customer_tweet_id": "144076",
+      "brand_tweet_id": "144075",
+      "customer_message": "So even with prime membership i cant get anything delivered from @115830 until monday even tho its a prime item Remind me what i pay for given i dont use the streaming services",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "1765218",
+      "conversation_id": "1765221",
+      "customer_tweet_id": "1765218",
+      "brand_tweet_id": "1765217",
+      "customer_message": "@AmazonHelp  https://t.co/dJGwWA5KiX",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "888189",
+      "conversation_id": "888189",
+      "customer_tweet_id": "888189",
+      "brand_tweet_id": "888187",
+      "customer_message": "@115821 is getting an email from   “ __email__ “ telling me my order hasn’t been shipped because i need to fax credit card information and the billing adress legit or a scam ?",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "1219182",
+      "conversation_id": "1219182",
+      "customer_tweet_id": "1219182",
+      "brand_tweet_id": "1219181",
+      "customer_message": "@AmazonHelp please stop suggesting this to me, i am happily married https://t.co/5fGD2En2xQ",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2880420",
+      "conversation_id": "2880420",
+      "customer_tweet_id": "2880420",
+      "brand_tweet_id": "2880418",
+      "customer_message": "If you’re planning on using a courier do NOT use @24123. Possibly one of the worst out there. Decided to change delivery day on the day of delivery with 0 explanation. People have work you know.. @115830 - rethink who you use.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2330914",
+      "conversation_id": "2330916",
+      "customer_tweet_id": "2330914",
+      "brand_tweet_id": "2330913",
+      "customer_message": "@115833 @115888 I emailed but didn’t hear back and this has become a major usability problem for me!",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "1326976",
+      "conversation_id": "1326976",
+      "customer_tweet_id": "1326976",
+      "brand_tweet_id": "1326974",
+      "customer_message": "@115830 ordered 4 prime items yesterday and they aren’t arriving until Monday. I would have thought tomorrow at the latest. Thought my prime membership meant next day delivery?!",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "472478",
+      "conversation_id": "472478",
+      "customer_tweet_id": "472478",
+      "brand_tweet_id": "472476",
+      "customer_message": ". @115850 @AmazonHelp @119862 @3021 What's the use of providing HDFC offer, if the payment via my HDFC card keeps failing? Tried 4 times till now, ORDER #\n406-8984446-2310766 @132994 @139570",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "2481775",
+      "conversation_id": "2481775",
+      "customer_tweet_id": "2481775",
+      "brand_tweet_id": "2481774",
+      "customer_message": "The @115821 shipping group doesn't grasp the concept that apartment offices close and packages should be delivered accordingly.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1325490",
+      "conversation_id": "1325490",
+      "customer_tweet_id": "1325490",
+      "brand_tweet_id": "1325488",
+      "customer_message": "@115830 why when I order anything on Amazon today (Friday) am I being told it won't arrive until Monday and not next day?",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "2515876",
+      "conversation_id": "2515876",
+      "customer_tweet_id": "2515876",
+      "brand_tweet_id": "2515875",
+      "customer_message": "Bold move @115821 , delivering a $60 PS4 controller and leaving it in my apartment walk way for 5 hours.\n\nHowever, some faith has been restored in humanity.\n\nThat or just a slow foot traffic day by my apartment.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "562941",
+      "conversation_id": "562937",
+      "customer_tweet_id": "562941",
+      "brand_tweet_id": "562943",
+      "customer_message": "@AmazonHelp Recibí muy mala atención del supervisor Juan fue grosero y altanero además nunca me brindo opciones viables para resolver el problema.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "820624",
+      "conversation_id": "820633",
+      "customer_tweet_id": "820624",
+      "brand_tweet_id": "820626",
+      "customer_message": "@AmazonHelp Muchas gracias por contestar tan deprisa! El telf de contacto (900 831 773) es solo para llamar desde España? (vivo en USA)",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "406598",
+      "conversation_id": "406598",
+      "customer_tweet_id": "406598",
+      "brand_tweet_id": "406596,406602",
+      "customer_message": "@115830 @137949 when i ask alexa to play a song, she automatically defaults to amazon music and not spotify... how can i designate?",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "343782",
+      "conversation_id": "343787",
+      "customer_tweet_id": "343782",
+      "brand_tweet_id": "343781",
+      "customer_message": "@AmazonHelp 1. I was told to just delete items in cart 2. Change all my passwords (amazing email bank) 3.My account was \"wiped\" including all my books",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "2032890",
+      "conversation_id": "606181",
+      "customer_tweet_id": "2032890",
+      "brand_tweet_id": "2032891",
+      "customer_message": "@AmazonHelp I am doing everything which I have to do .. either it be a reply to your correspondence but still I am not getting the proper solution..\nAnd now the frustration level is getting higher don't let me take bad steps which can harm your workers out in market.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "400343",
+      "conversation_id": "396013",
+      "customer_tweet_id": "400343",
+      "brand_tweet_id": "400344",
+      "customer_message": "@AmazonHelp The call disconnects saying that you were unable to find my order. Been trying to reach you from past 10 days. Please dm me or email me",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "1550783",
+      "conversation_id": "1550779",
+      "customer_tweet_id": "1550783",
+      "brand_tweet_id": "1550785",
+      "customer_message": "@AmazonHelp Didn't care that the reason I am upset is cause I'm not receiving the 2 day shipping I pay for.",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "2205338",
+      "conversation_id": "2205339",
+      "customer_tweet_id": "2205338",
+      "brand_tweet_id": "2205340",
+      "customer_message": "@AmazonHelp it's all good...i just picked the wrong shipping option.  I just want to play the fractured but whole sooner rather than later. lol",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "754592",
+      "conversation_id": "754592",
+      "customer_tweet_id": "754592",
+      "brand_tweet_id": "754590",
+      "customer_message": "I love @115821 one hour Morrison's delivery but the packaging... giant bag for  tub of houmous... 7 bags for 8 things https://t.co/GSHKa8ZnYE",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1290964",
+      "conversation_id": "1290976",
+      "customer_tweet_id": "1290964",
+      "brand_tweet_id": "1290966",
+      "customer_message": "@AmazonHelp Y a juste écrit Amazon logistics",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1670686",
+      "conversation_id": "1670686",
+      "customer_tweet_id": "1670686",
+      "brand_tweet_id": "1670684",
+      "customer_message": "@118919 hi i am purchased 1000rs Amazon gift card but i don't get anything and my account block plz help me https://t.co/QjAMUfVMyD",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "1667780",
+      "conversation_id": "1667770",
+      "customer_tweet_id": "1667780",
+      "brand_tweet_id": "1667781",
+      "customer_message": "@AmazonHelp It's too late to chat now. I will wait until tomorrow and hopefully my missing item will) be delivered",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "934303",
+      "conversation_id": "934303",
+      "customer_tweet_id": "934303",
+      "brand_tweet_id": "934302",
+      "customer_message": "OMGGGGG @AmazonHelp",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1336209",
+      "conversation_id": "1336209",
+      "customer_tweet_id": "1336209",
+      "brand_tweet_id": "1336208",
+      "customer_message": "@115830 28 days I've been waiting for rope which can arrive as soon as 5-7 days. Make it clear products are shipping from China...... https://t.co/v2sZDqbRP2",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "284800",
+      "conversation_id": "284800",
+      "customer_tweet_id": "284800",
+      "brand_tweet_id": "284798",
+      "customer_message": "It's a bit unfair when Echo purchase on Amazon India does not entitle to extending your existing Amazon Prime membership by one more year.",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "294863",
+      "conversation_id": "294863",
+      "customer_tweet_id": "294863",
+      "brand_tweet_id": "294861",
+      "customer_message": "@115830 - my Hermes return pick up hasn't turned up, it should have been 2 days ago. Can't you advise? Thanks",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "311326",
+      "conversation_id": "311331",
+      "customer_tweet_id": "311326",
+      "brand_tweet_id": "311328",
+      "customer_message": "@AmazonHelp Nah don't worry about it, it's probably chilling at the town post office for the time being; thanks tho have a nice weekend",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "65847",
+      "conversation_id": "65847",
+      "customer_tweet_id": "65847",
+      "brand_tweet_id": "65845",
+      "customer_message": "@123644  \nHi I ordered an item earlier, the money was deducted from my card,cancelled it but still haven’t received my refund! It’s impossible to contact customer service..💩💩💩",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "934298",
+      "conversation_id": "934303",
+      "customer_tweet_id": "934298",
+      "brand_tweet_id": "934297",
+      "customer_message": "@AmazonHelp Physical",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "619090",
+      "conversation_id": "619114",
+      "customer_tweet_id": "619090",
+      "brand_tweet_id": "619089",
+      "customer_message": "@AmazonHelp There is no email from the social media team.. stop killing time by sending such repetitive emails of reply sent. It u truly intend give a concrete reply..",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "900887",
+      "conversation_id": "900887",
+      "customer_tweet_id": "900887",
+      "brand_tweet_id": "900885",
+      "customer_message": "@115821 @123644 you can suspend my account if you wish to. But why should I pay u if my instances are unused for so many months ??",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "2964094",
+      "conversation_id": "2964094",
+      "customer_tweet_id": "2964094",
+      "brand_tweet_id": "2964090",
+      "customer_message": "@120540 Buonasera,sono cliente Prime dall’anno 2012. Ho acquistato moltissime cose.Da circa sei mesi il Vostro servizio di spedizioni non funziona:oggi mi dovevano recapitare 5 prodotti, e solo 2 lasciati al bar con mia moglie a casa l’intero giorno.Mi cancellerò quanto prima.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2471677",
+      "conversation_id": "2471677",
+      "customer_tweet_id": "2471677",
+      "brand_tweet_id": "2471676",
+      "customer_message": "@116618  i have loads of ideas and proposals for tv shows/movies I am currently trying to write a book that I think would be an amazing film I just need some assistance is there anyway to speak to a creative director or associate? I know you get that a lot but please listen.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "385945",
+      "conversation_id": "385943",
+      "customer_tweet_id": "385945",
+      "brand_tweet_id": "385946",
+      "customer_message": "@AmazonHelp I got that email in September with no other update. I checked the order status Sunday to see if it shipped when I saw the new date.",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "1544189",
+      "conversation_id": "1544190",
+      "customer_tweet_id": "1544189",
+      "brand_tweet_id": "1544191",
+      "customer_message": "@AmazonHelp 素敵なリプありがとう( ；∀；)\nいつもお世話になってます！\nこれからもよろしくお願いします！",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2766236",
+      "conversation_id": "2766238",
+      "customer_tweet_id": "2766236",
+      "brand_tweet_id": "2766237",
+      "customer_message": "@AmazonHelp Hahaha Oi Duda, não sei o que acontece mas vc esta maio bicuda 😅. Mas relaxa vai passar ... Hahaha",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "145688",
+      "conversation_id": "145688",
+      "customer_tweet_id": "145688",
+      "brand_tweet_id": "145687",
+      "customer_message": "@115821 what happened to next day delivery i pay a subscription for next day delivery nothing is on next day why?",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "149116",
+      "conversation_id": "149116",
+      "customer_tweet_id": "149116",
+      "brand_tweet_id": "149115",
+      "customer_message": "@116928 tengo una duda. Hay juegos que, como éste de la foto, pone 3x2. Escojo 3 juegos de esta promoción y al ir a pagar no me aplica 3x2 sino q me cobra los 3. Qué debo hacer? https://t.co/TEQdqb3FNY",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "844119",
+      "conversation_id": "844097",
+      "customer_tweet_id": "844119",
+      "brand_tweet_id": "2148106",
+      "customer_message": "@117086 Oi, quando abre a pré venda do monstro Xbox One X da @166780 ?",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "2725926",
+      "conversation_id": "2725927",
+      "customer_tweet_id": "2725926",
+      "brand_tweet_id": "2725928",
+      "customer_message": "@AmazonHelp No. I was just apologized to over and over again, which I appreciate, but I wasn't given any real feedback. There should be an option to not use your carrier service because it clearly shouldn't have been rolled out yet.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2216892",
+      "conversation_id": "2216896",
+      "customer_tweet_id": "2216892",
+      "brand_tweet_id": "2216891",
+      "customer_message": "@AmazonHelp I want everyone to know how you make your PRIME member suffer... I don't have any problem with my number displaying here",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "2768236",
+      "conversation_id": "2768236",
+      "customer_tweet_id": "2768236",
+      "brand_tweet_id": "2768234",
+      "customer_message": "why the hell amazon told me that my order has been shipped but will arrive on FRIDAY?",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1496040",
+      "conversation_id": "1496040",
+      "customer_tweet_id": "1496040",
+      "brand_tweet_id": "1496038",
+      "customer_message": "Cancelling the 4 games I've got on pre order because @115830. Can't deliver them on time, not like I pre ordered 6 months ago @AmazonHelp",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "2193252",
+      "conversation_id": "2193252",
+      "customer_tweet_id": "2193252",
+      "brand_tweet_id": "2193250",
+      "customer_message": "Ach, @116316, warum bestelle ich denn Bücher zum Erscheinungstermin vor, wenn sie dann fast 'ne Woche danach geliefert werden!? https://t.co/TkR7ewvxdx",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2836996",
+      "conversation_id": "2836997",
+      "customer_tweet_id": "2836996",
+      "brand_tweet_id": "2836998",
+      "customer_message": "@AmazonHelp falei na hora da raiva, apesar de alguns livros vierem todo amassado mas fora isso tá ok, amo vcs sim bj",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "1387753",
+      "conversation_id": "1387753",
+      "customer_tweet_id": "1387753",
+      "brand_tweet_id": "1387752",
+      "customer_message": "Amazonから\n私が注文した覚えのない\n商品が届きました…\n\nこれは…一体…ww https://t.co/LmPjwjhSb9",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "1191724",
+      "conversation_id": "1191714",
+      "customer_tweet_id": "1191724",
+      "brand_tweet_id": "1191729",
+      "customer_message": "@AmazonHelp 23rd October 2017 https://t.co/Qso01YGjsD",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1042311",
+      "conversation_id": "1042313",
+      "customer_tweet_id": "1042311",
+      "brand_tweet_id": "1042310,1042312",
+      "customer_message": "@AmazonHelp Already done 3 times, 1st time on 16th Oct. and 2nd time on 17th Oct. and 3rd time today.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1027473",
+      "conversation_id": "1027473",
+      "customer_tweet_id": "1027473",
+      "brand_tweet_id": "1027471,1027475,1027476",
+      "customer_message": "@115850 ORDER # 406-0044233-9534752 stil nt dlvrd vpoor srvc from amazon.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1007015",
+      "conversation_id": "1007015",
+      "customer_tweet_id": "1007015",
+      "brand_tweet_id": "1007013",
+      "customer_message": "@AmazonHelp I recommend to never buy from Amazon they sell Pure Duplicate Product.",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "762445",
+      "conversation_id": "762449",
+      "customer_tweet_id": "762445",
+      "brand_tweet_id": "762443",
+      "customer_message": "@AmazonHelp I haven't got a clue. they haven't replied to any tweet I've sent them. Anyway you pay their bill not me, you need to ask them!!!!",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "143996",
+      "conversation_id": "143996",
+      "customer_tweet_id": "143996",
+      "brand_tweet_id": "143994",
+      "customer_message": "No hay persona más fan en estos momentos que yo de @116928 , comprar ayer y recibirlo hoy en casa es algo al alcance de pocas empresas. ¡ENHORABUENA!",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1649634",
+      "conversation_id": "1649635",
+      "customer_tweet_id": "1649634",
+      "brand_tweet_id": "1649632",
+      "customer_message": "@115821 help me",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2379688",
+      "conversation_id": "2379689",
+      "customer_tweet_id": "2379688",
+      "brand_tweet_id": "2379690",
+      "customer_message": "@AmazonHelp Hahahaha quero esse gato pra mim! Sim, aproveitei, daqui uns dias chegam mais 4 livros pra estante 🤓",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1911642",
+      "conversation_id": "1911642",
+      "customer_tweet_id": "1911642",
+      "brand_tweet_id": "1911641",
+      "customer_message": "Recently ordered a full book series I got a taste of back in secondary school. Consisting of 18 books as of now (more are being worked on). Been getting them delivered bit by bit, over the past two weeks. All of them arrived early. Thanks @115830",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2220128",
+      "conversation_id": "2217291",
+      "customer_tweet_id": "2220128",
+      "brand_tweet_id": "2220126",
+      "customer_message": "@648475 @AmazonHelp Guessed as much. Not impressed. Propping package against storm door w/o knocking is not cool. I was inside. Made getting the box difficult.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "96803",
+      "conversation_id": "96807",
+      "customer_tweet_id": "96803",
+      "brand_tweet_id": "96802",
+      "customer_message": "@AmazonHelp #LGQ6AppQuiz  @AmazonHelp  still not yet listed in your link.",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "1623443",
+      "conversation_id": "1623444",
+      "customer_tweet_id": "1623443",
+      "brand_tweet_id": "1623445",
+      "customer_message": "@AmazonHelp Will I still receive my order?",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1084966",
+      "conversation_id": "1084966",
+      "customer_tweet_id": "1084966",
+      "brand_tweet_id": "1084965",
+      "customer_message": "@116875 Tengo un pedido que debio llegar el 11 de octubre, aun con amazon prime, esto es inaceptable, para que pago prime? #AmazonFail",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "870182",
+      "conversation_id": "870151",
+      "customer_tweet_id": "870182",
+      "brand_tweet_id": "870184",
+      "customer_message": "@AmazonHelp My question is will u listen to the calls. U r not even acknowledging that. This is ur service? I have lost faith in ur service.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1155174",
+      "conversation_id": "1155174",
+      "customer_tweet_id": "1155174",
+      "brand_tweet_id": "1155173",
+      "customer_message": "@115850 @AmazonHelp how can I contact you. Your customer care call is disconnecting continuously saying \"sorry ur order is not find\"",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "2199067",
+      "conversation_id": "2199067",
+      "customer_tweet_id": "2199067",
+      "brand_tweet_id": "2199066",
+      "customer_message": "@115821, I’m highly disappointed that you would allow a third party seller to price gouge when an item was already purchased at an agreed upon price that your website advertised yet the seller raised an in stock item by 300% after purchase. I️ expected better business practices.",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "2972860",
+      "conversation_id": "2972860",
+      "customer_tweet_id": "2972860",
+      "brand_tweet_id": "2972859",
+      "customer_message": "@115821 I just found a package I thought I sent for return weeks ago. Is it too late? If it weren’t for the shoes being too small, I’d eat it, but I really hope I have time.",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "279407",
+      "conversation_id": "279455",
+      "customer_tweet_id": "279407",
+      "brand_tweet_id": "279409",
+      "customer_message": "@AmazonHelp I have done multiple time . You owe me my money, you closed my amazon account. How can you say you wil not refund my money",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "440054",
+      "conversation_id": "440086",
+      "customer_tweet_id": "440054",
+      "brand_tweet_id": "440055",
+      "customer_message": "@AmazonHelp Done !! Now could you please contact?",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1031699",
+      "conversation_id": "1031702",
+      "customer_tweet_id": "1031699",
+      "brand_tweet_id": "1031700,1031701",
+      "customer_message": "@AmazonHelp Mise à jour toute fraîche :+( https://t.co/tvB3zZX0X8",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "576476",
+      "conversation_id": "576482",
+      "customer_tweet_id": "576476",
+      "brand_tweet_id": "576478",
+      "customer_message": "@AmazonHelp de: we’re in Austria 🇦🇹 (not Australia 🇦🇺), can you unblock our Alexa/services if I send proof of payment? it’s horrible to sit in the dark rn lol",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "1632186",
+      "conversation_id": "1632192",
+      "customer_tweet_id": "1632186",
+      "brand_tweet_id": "1632187",
+      "customer_message": "@AmazonHelp Mas agora temos um problema... vcs cancelaram a cobrança!",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "207599",
+      "conversation_id": "207599",
+      "customer_tweet_id": "207599",
+      "brand_tweet_id": "207597",
+      "customer_message": "@115830 Had to sit in all day waiting on a delivery to then find out it has been delayed!Now expected to wait up to another2days!Shocking",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "585833",
+      "conversation_id": "585833",
+      "customer_tweet_id": "585833",
+      "brand_tweet_id": "585832",
+      "customer_message": "@115850 poor response by Amazon for seller fulfilled order no response from seller and amazon both \nOrder no. 171-1463468-0274748",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "1430394",
+      "conversation_id": "1430394",
+      "customer_tweet_id": "1430394",
+      "brand_tweet_id": "1430393",
+      "customer_message": "@AmazonHelp Amazonが販売、発送の商品を7月末に注文したしたが未だにお支払い番号がきません。\n一度問い合わせたのですが、入荷が遅れている為もう少しお待ち下さいという旨の返信が来ましたが未だにお支払い番号が来ないのですがもう一度問い合わせた方が良いのですか？",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "235112",
+      "conversation_id": "235110",
+      "customer_tweet_id": "235112",
+      "brand_tweet_id": "724908",
+      "customer_message": "@115850 I am very upset with you amazon. Not even a single item in wish list got discounted during sales. :(:(:(:(",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1602582",
+      "conversation_id": "1602582",
+      "customer_tweet_id": "1602582",
+      "brand_tweet_id": "1602581,1602583",
+      "customer_message": "Raja the Great telugu Movie when u are uploading @119625",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "2630049",
+      "conversation_id": "2630049",
+      "customer_tweet_id": "2630049",
+      "brand_tweet_id": "2630048",
+      "customer_message": "@115833 my echo dots won’t play music! \n\nAlexa says “I am not sure what went wrong”\n\n(Wifi connection &amp; all other functionality is good)\n\nPlease advise",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "1662597",
+      "conversation_id": "1662603",
+      "customer_tweet_id": "1662597",
+      "brand_tweet_id": "1662598",
+      "customer_message": "@AmazonHelp The link is meant to be 'Marvel Studios Collector's Edition Box Set Phase 2 [Blu-ray] [Region Free] Blu-ray'.",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "1642700",
+      "conversation_id": "1642704",
+      "customer_tweet_id": "1642700",
+      "brand_tweet_id": "1642699",
+      "customer_message": "@AmazonHelp Please your system has updated that changed to 9th.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2290253",
+      "conversation_id": "2290254",
+      "customer_tweet_id": "2290253",
+      "brand_tweet_id": "2290255",
+      "customer_message": "@AmazonHelp Support team is not replying properly. CCE has listened my query and end the call.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "934294",
+      "conversation_id": "934303",
+      "customer_tweet_id": "934294",
+      "brand_tweet_id": "934293",
+      "customer_message": "@AmazonHelp Chat here",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "837851",
+      "conversation_id": "837851",
+      "customer_tweet_id": "837851",
+      "brand_tweet_id": "837850,837852",
+      "customer_message": "アー Amazonプライムそういえば無料お試しとやらを試したんだった・・・期間過ぎたら勝手に入会扱いにして会費取られるんやな・・・ちゃんと見てなかった・・・",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "2289159",
+      "conversation_id": "2289166",
+      "customer_tweet_id": "2289159",
+      "brand_tweet_id": "2289160",
+      "customer_message": "@AmazonHelp Yes, 11/12.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2758110",
+      "conversation_id": "2758110",
+      "customer_tweet_id": "2758110",
+      "brand_tweet_id": "2758109",
+      "customer_message": "もうとっくにAmazonの履歴確認したら配達完了済になってるのに配達完了メール来ないから受け取り番号分からなくて引き換えレシート発行出来ないし、そもそも指定の場所に届いてない？",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1606253",
+      "conversation_id": "1606254",
+      "customer_tweet_id": "1606253",
+      "brand_tweet_id": "1606255,1606256",
+      "customer_message": "@AmazonHelp Return Request , I don't need money I need Item Replacement.\nID : 710395986833",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "1408071",
+      "conversation_id": "1408074",
+      "customer_tweet_id": "1408071",
+      "brand_tweet_id": "1408069",
+      "customer_message": "@AmazonHelp Yea, this is what it says. https://t.co/23mWSyijmr",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2459922",
+      "conversation_id": "2459923",
+      "customer_tweet_id": "2459922",
+      "brand_tweet_id": "2459921",
+      "customer_message": "@704439 @115850 Postponed to what date?",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1288177",
+      "conversation_id": "1288177",
+      "customer_tweet_id": "1288177",
+      "brand_tweet_id": "1288175",
+      "customer_message": "Got an update from @116090 that my Pre-order of #SuperMarioOdyssey arrives between Nov 1-3.\n\nThanks for giving me the game a week late. 🤨",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "682486",
+      "conversation_id": "682501",
+      "customer_tweet_id": "682486",
+      "brand_tweet_id": "682484",
+      "customer_message": "@AmazonHelp I have shared the required details on the link provided. \nLook forward to a resolution soon. Thanks.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "317261",
+      "conversation_id": "317254",
+      "customer_tweet_id": "317261",
+      "brand_tweet_id": "317262",
+      "customer_message": "@AmazonHelp No haven’t received any emails, that’s the second time you have asked me that",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2238658",
+      "conversation_id": "2238658",
+      "customer_tweet_id": "2238658",
+      "brand_tweet_id": "2238655",
+      "customer_message": "@115850 @119625 what is this? I am not able to cast any video using my android device and Google Chromecast? Your cc team is saying that you guys are upgrading your application. I think you guys are cheating and trying to sell your fire TV deliberately.",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "865835",
+      "conversation_id": "865841",
+      "customer_tweet_id": "865835",
+      "brand_tweet_id": "865834",
+      "customer_message": "@AmazonHelp ありがとうございます。",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "65856",
+      "conversation_id": "65856",
+      "customer_tweet_id": "65856",
+      "brand_tweet_id": "65855",
+      "customer_message": "Annoyed with @115830. Why do you charge post and packaging for every item when they are ordered as a batch to the same address! #annoyed #daylightrobbery",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "799637",
+      "conversation_id": "799647",
+      "customer_tweet_id": "799637",
+      "brand_tweet_id": "799638",
+      "customer_message": "@AmazonHelp By 8pm",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "133799",
+      "conversation_id": "133799",
+      "customer_tweet_id": "133799",
+      "brand_tweet_id": "133798",
+      "customer_message": "delightful Amazon employee addessing me as Mistress Baron this morning ! I am charmed !",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1544059",
+      "conversation_id": "1544064",
+      "customer_tweet_id": "1544059",
+      "brand_tweet_id": "1544061",
+      "customer_message": "@AmazonHelp This one's USPS, but it's happened with UPS, too. My stuff frequently gets sent to the incorrect facility. 😒",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1387751",
+      "conversation_id": "1387753",
+      "customer_tweet_id": "1387751",
+      "brand_tweet_id": "1387749",
+      "customer_message": "@AmazonHelp ご丁寧にありがとうございますw\n旦那が犯人でしたんで\n大丈夫です。",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "534215",
+      "conversation_id": "534217",
+      "customer_tweet_id": "534215",
+      "brand_tweet_id": "534214",
+      "customer_message": "@AmazonHelp I’ll try",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "481676",
+      "conversation_id": "481676",
+      "customer_tweet_id": "481676",
+      "brand_tweet_id": "481675",
+      "customer_message": "Alô @117086 cadê meu pedido? Já falei com 2 atendentes do SAC, e nada dos meus livros aparecerem 😔💔",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "149305",
+      "conversation_id": "149305",
+      "customer_tweet_id": "149305",
+      "brand_tweet_id": "149303",
+      "customer_message": "@115850 Even after sending request so many times , no one came to receive my product which I got defective! I am really pissed off with your services!",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "117832",
+      "conversation_id": "117832",
+      "customer_tweet_id": "117832",
+      "brand_tweet_id": "117830",
+      "customer_message": "Waiting on @115821 to ship my @142136 #anthology is like watching paint dry... instead of today arriving it'll now be the 30th... 😭",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "339160",
+      "conversation_id": "339160",
+      "customer_tweet_id": "339160",
+      "brand_tweet_id": "339158",
+      "customer_message": "@AmazonHelp What is going on with the shipping of John Green new book Turtles All The Way Down? My book was supposed to ship yesterday and",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "1614194",
+      "conversation_id": "1614192",
+      "customer_tweet_id": "1614194",
+      "brand_tweet_id": "1614195",
+      "customer_message": "@AmazonHelp 届いてます！🙌ですがURLから飛ぶのはどうすればいいですか？",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "343011",
+      "conversation_id": "343011",
+      "customer_tweet_id": "343011",
+      "brand_tweet_id": "343010",
+      "customer_message": "caro sig. @120540 come faccio a disattivare l'abbonamento a prime video senza disattivare l'abbonamento a prime ? perché dal sito non è chiara la procedura",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "586833",
+      "conversation_id": "586841",
+      "customer_tweet_id": "586833",
+      "brand_tweet_id": "586832",
+      "customer_message": "@AmazonHelp Yes. I've contacted them twice in the past week. They don't answer. USPS has no answer,  Amazon can't answer because USPS doesn't update the tracking. It's over $100 item .",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1721669",
+      "conversation_id": "1721670",
+      "customer_tweet_id": "1721669",
+      "brand_tweet_id": "1721671",
+      "customer_message": "@AmazonHelp One I can wanted thankfully. It’s like my subconscious was annoyed at me for adding it to the wish list rather than just buying it.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "779586",
+      "conversation_id": "779577",
+      "customer_tweet_id": "779586",
+      "brand_tweet_id": "779587",
+      "customer_message": "@AmazonHelp Thanks. Got the pick up",
+      "gold_intent": "refund_return"
+    },
+    {
+      "id": "105033",
+      "conversation_id": "105033",
+      "customer_tweet_id": "105033",
+      "brand_tweet_id": "105032",
+      "customer_message": "@115821 I'm not sure how you've managed time travel, but do your time traveling delivery people leave packages in specific places or do I have to do like am Easter egg hunt? https://t.co/e4T4wEUUFs",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2795257",
+      "conversation_id": "2795263",
+      "customer_tweet_id": "2795257",
+      "brand_tweet_id": "2795255",
+      "customer_message": "@AmazonHelp Além de entregar rápido ainda respondem? 😍\n\nAcho que vou ler na ordem mesmo, mas só pq são novos. Depois da primeira leitura completa eu fico relendo no aleatório, só pra matar a saudade 😊",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "2647212",
+      "conversation_id": "2647212",
+      "customer_tweet_id": "2647212",
+      "brand_tweet_id": "2647211",
+      "customer_message": "Really getting tired of @115821 Prime shipments taking longer than they say. I ordered headlights expecting them today. Prob should buy local and cancel order.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1152621",
+      "conversation_id": "1152618",
+      "customer_tweet_id": "1152621",
+      "brand_tweet_id": "1152622",
+      "customer_message": "@AmazonHelp Sólo uno que espero me llegue mañana",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1406102",
+      "conversation_id": "1406102",
+      "customer_tweet_id": "1406102",
+      "brand_tweet_id": "1406101",
+      "customer_message": "@115821 what is that mean coz they take the money from my card Please update your payment method to process your order Revise Payment Method",
+      "gold_intent": "payment_billing"
+    },
+    {
+      "id": "894703",
+      "conversation_id": "894704",
+      "customer_tweet_id": "894703",
+      "brand_tweet_id": "894705",
+      "customer_message": "@AmazonHelp My sister preordered it back in July and it never shipped but she said the money came out of her account and the book came out in September",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "1097692",
+      "conversation_id": "1097692",
+      "customer_tweet_id": "1097692",
+      "brand_tweet_id": "1097691",
+      "customer_message": "A bit disappointed that I bought something that has Prime marked on it and it won't be here for another week, possibly. @AmazonHelp",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1135111",
+      "conversation_id": "1135112",
+      "customer_tweet_id": "1135111",
+      "brand_tweet_id": "1135113",
+      "customer_message": "@AmazonHelp Done all of that and it’s not just on one Wi-fi box it’s on at least two different providers. Also doesn’t happen on YouTube etc",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "1100516",
+      "conversation_id": "1100516",
+      "customer_tweet_id": "1100516",
+      "brand_tweet_id": "1100515",
+      "customer_message": "@AmazonHelp received the attached 2 days ago and still no delivery... for the delivery charges you charge this isnt right and I really shouldn't be waiting over a week anyway https://t.co/R6ZPf9z8vD",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "67559",
+      "conversation_id": "67575",
+      "customer_tweet_id": "67559",
+      "brand_tweet_id": "67557",
+      "customer_message": "@AmazonHelp I am only available to accept the parcel during specific times and do not want it left unattended given its value. My perspective is that it’s down to you to now ensure you deliver it during the times I am available given that you have failed to meet the selected NDD.",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "318424",
+      "conversation_id": "318424",
+      "customer_tweet_id": "318424",
+      "brand_tweet_id": "318423,318425,318426",
+      "customer_message": "@115850 order no 405-9749390-2072353... No one even attempted to deliver it and now I got the message that it's being returned back..",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "993281",
+      "conversation_id": "993281",
+      "customer_tweet_id": "993281",
+      "brand_tweet_id": "993279",
+      "customer_message": "Warte seit Tagen auf mein mit #prime bestelltes Samsung S8+ @AmazonHelp  zeigt sich unkulant- bin jetzt wieder #teameinzelhandel #primekunde",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2287113",
+      "conversation_id": "2287113",
+      "customer_tweet_id": "2287113",
+      "brand_tweet_id": "2287112",
+      "customer_message": "Is @115821 search engine down? I can't do a sucessful search for any item on the website.",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "162090",
+      "conversation_id": "162094",
+      "customer_tweet_id": "162090",
+      "brand_tweet_id": "162088",
+      "customer_message": "@AmazonHelp I 'm just getting the busy symbol  and thats it, no error messages, its not a systemwide problem then?",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "2722696",
+      "conversation_id": "2722696",
+      "customer_tweet_id": "2722696",
+      "brand_tweet_id": "2722695",
+      "customer_message": "翌日配達とかAmazonさん有能…楽しみが増えたので、明日仕事がんばる(*´-`)",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1379896",
+      "conversation_id": "1379897",
+      "customer_tweet_id": "1379896",
+      "brand_tweet_id": "1379898,1379899",
+      "customer_message": "@AmazonHelp Yet not available..any particular day when the latest episode of @41845 is updated?????",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "1563766",
+      "conversation_id": "1563766",
+      "customer_tweet_id": "1563766",
+      "brand_tweet_id": "1563764",
+      "customer_message": "@115850 @115821 @115851\ndelivery n cust care lie on delivery of a prdct. Showin appt rescheduled w/o contacting me. #AmazonLogistics",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "69913",
+      "conversation_id": "69933",
+      "customer_tweet_id": "69913",
+      "brand_tweet_id": "69912",
+      "customer_message": "@AmazonHelp No update till now! :(",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "660398",
+      "conversation_id": "660398",
+      "customer_tweet_id": "660398",
+      "brand_tweet_id": "660397",
+      "customer_message": "Ma dernière commande est en retard d’une semaine, Ni la commande de remplacement, ni le remboursement ne sont possibles.\nJe fais quoi maintenant @AmazonHelp ?\nJ’attends tranquillement qu’on me dise sue mon colis est pommé ou je n’sais quoi ?",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "69920",
+      "conversation_id": "69933",
+      "customer_tweet_id": "69920",
+      "brand_tweet_id": "69918",
+      "customer_message": "@AmazonHelp A call back would be preferable!",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1167720",
+      "conversation_id": "1167720",
+      "customer_tweet_id": "1167720",
+      "brand_tweet_id": "1167719",
+      "customer_message": "real talk when is @115821 bringing our Halloween candy",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "941403",
+      "conversation_id": "941404",
+      "customer_tweet_id": "941403",
+      "brand_tweet_id": "941405",
+      "customer_message": "@AmazonHelp Vai ter boas promoções? ❤",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "1776427",
+      "conversation_id": "1776427",
+      "customer_tweet_id": "1776427",
+      "brand_tweet_id": "1776425",
+      "customer_message": "I'm sorry @115821 ...but I don't think this was a good solution for slow delivery time. 😳#amazonprime #awkwardsituations https://t.co/dmzdjb6OzM",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2891977",
+      "conversation_id": "2891978",
+      "customer_tweet_id": "2891977",
+      "brand_tweet_id": "2891979",
+      "customer_message": "@AmazonHelp merry*",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "923732",
+      "conversation_id": "923729",
+      "customer_tweet_id": "923732",
+      "brand_tweet_id": "923733",
+      "customer_message": "@AmazonHelp Je vais essayer de les contacter mais comme selon le site, le colis n'est pas en retard où puis-je les contacter ?",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1077765",
+      "conversation_id": "1077766",
+      "customer_tweet_id": "1077765",
+      "brand_tweet_id": "1077767",
+      "customer_message": "@AmazonHelp That’s the one yes, same. Requested redelivery for yesterday and UPS shows it as “in transit” with scheduled delivery today",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1570947",
+      "conversation_id": "1570948",
+      "customer_tweet_id": "1570947",
+      "brand_tweet_id": "1570949",
+      "customer_message": "@AmazonHelp The website is designed to stop people looking for help.  Hv done this stupid 2 step log in and the correct code you sent me is refused.",
+      "gold_intent": "account_prime"
+    },
+    {
+      "id": "2171264",
+      "conversation_id": "2171265",
+      "customer_tweet_id": "2171264",
+      "brand_tweet_id": "2171266",
+      "customer_message": "@AmazonHelp Two orders screwed up in one week - Amazon is definitely spiraling downward !!",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "2094027",
+      "conversation_id": "2094027",
+      "customer_tweet_id": "2094027",
+      "brand_tweet_id": "2094026",
+      "customer_message": "さっそくAmazon Music Unlimited登録してみたけど、ゆゆ式やけものフレンズとかのキャラソンも聞けてすごーい！ https://t.co/KK6IHXqNE8",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "429045",
+      "conversation_id": "429043",
+      "customer_tweet_id": "429045",
+      "brand_tweet_id": "429046",
+      "customer_message": "@AmazonHelp Si, vendido y enviado por amazon",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "398796",
+      "conversation_id": "398796",
+      "customer_tweet_id": "398796",
+      "brand_tweet_id": "398794,398798",
+      "customer_message": "@115850 my order no is\n\n404-6253992-4618766",
+      "gold_intent": "order_issue"
+    },
+    {
+      "id": "268718",
+      "conversation_id": "268718",
+      "customer_tweet_id": "268718",
+      "brand_tweet_id": "268717",
+      "customer_message": "@116618 the app roku doesn’t seem to have it. Is there a secret search word?",
+      "gold_intent": "digital_technical"
+    },
+    {
+      "id": "1457944",
+      "conversation_id": "1457944",
+      "customer_tweet_id": "1457944",
+      "brand_tweet_id": "1457942",
+      "customer_message": "@AmazonHelp My order has said shipped since the 24th and the last day for it to arrive is tomorrow but the package still isnt here any ideas",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "2888311",
+      "conversation_id": "2888314",
+      "customer_tweet_id": "2888311",
+      "brand_tweet_id": "2888312",
+      "customer_message": "@AmazonHelp I called your customer care number and even they are not sure where my package is. I don't care about inconvenience anymore. I want the package in my hand by the end of the day. Make it happen amazon",
+      "gold_intent": "delivery_issue"
+    },
+    {
+      "id": "1279780",
+      "conversation_id": "1279780",
+      "customer_tweet_id": "1279780",
+      "brand_tweet_id": "1279778",
+      "customer_message": "Dear @115850 , I want to buy this muffler. It is not available in India. Can you provide it ? https://t.co/Oog8gh5GHz",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "1452426",
+      "conversation_id": "1452426",
+      "customer_tweet_id": "1452426",
+      "brand_tweet_id": "1452424",
+      "customer_message": "@115850 @AmazonHelp @115851 india is a huge market, but amazingly poor customer support wont help at all.. one of the worst.",
+      "gold_intent": "other_unclear"
+    },
+    {
+      "id": "722139",
+      "conversation_id": "722146",
+      "customer_tweet_id": "722139",
+      "brand_tweet_id": "722137",
+      "customer_message": "@AmazonHelp The page you shared was of no use!!! I reported it as incorrect product information. No Thanks!!!",
+      "gold_intent": "product_seller_issue"
+    },
+    {
+      "id": "2304447",
+      "conversation_id": "2304447",
+      "customer_tweet_id": "2304447",
+      "brand_tweet_id": "2304446",
+      "customer_message": "@115821 so when site says “delivered on x day, apparently we now need to always add a day to that. What happened to delivery on time??",
+      "gold_intent": "delivery_issue"
+    }
+  ]
+}

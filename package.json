@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "preprocess": "tsx scripts/preprocess.ts",
+    "inspect-dataset": "tsx scripts/inspect-dataset.ts",
+    "inspect-amazon-help": "tsx scripts/inspect-amazon-help.ts",
+    "build-support-cases": "tsx scripts/build-support-cases.ts",
+    "verify-support-cases": "tsx scripts/verify-support-cases.ts",
+    "load-support-cases": "tsx scripts/load-support-cases.ts",
+    "verify-database": "tsx scripts/verify-database.ts",
+    "test-retrieval": "tsx scripts/test-retrieval.ts",
+    "test-intent-classifier": "tsx scripts/test-intent-classifier.ts",
+    "test-llm-classifier": "tsx scripts/test-llm-classifier.ts",
+    "test-grounded-reply": "tsx scripts/test-grounded-reply.ts",
+    "test-escalation": "tsx scripts/test-escalation.ts",
+    "dev": "tsx src/server.ts",
+    "create-keyword-evaluation-set": "tsx scripts/create-keyword-evaluation-set.ts",
+    "evaluate-keyword-baseline": "tsx scripts/evaluate-keyword-baseline.ts"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.12.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/pg": "^8.15.5",
+    "@types/express": "^5.0.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "brand": "AmazonHelp",
+  "status": "working_taxonomy",
+  "source": "Examples were inspected from data/processed/amazon-help-cases.jsonl.",
+  "labeling_note": "This taxonomy defines labeling rules. It does not claim that every processed case has been manually labeled.",
+  "intents": [
+    {
+      "name": "delivery_issue",
+      "description": "A shipment is late, missing, delayed, incorrectly tracked, or has a delivery-time problem.",
+      "inclusion_criteria": [
+        "The main problem is when or whether a package will arrive.",
+        "The customer reports a missing, late, delayed, or apparently delivered shipment."
+      ],
+      "exclusion_criteria": [
+        "Use order_issue when the problem is changing, cancelling, or placing an order without a delivery-status problem.",
+        "Use refund_return when the main request is money back or returning an item."
+      ],
+      "examples": [
+        {
+          "tweet_id": "1000154",
+          "text": "Is your company bound to destroy people's diwali celebration? You can't deliver a package ever after 5 days of expected delivery"
+        },
+        {
+          "tweet_id": "1000118",
+          "text": "It's all good now and it turns out the tracking shows it was never delivered. Your rep = v helpful and replacement is on its way"
+        }
+      ]
+    },
+    {
+      "name": "order_issue",
+      "description": "The customer needs help placing, changing, cancelling, or correcting an order or its contents.",
+      "inclusion_criteria": [
+        "The request concerns an order action or an incorrect item/order.",
+        "The customer wants to change or cancel an order before the main issue becomes a refund request."
+      ],
+      "exclusion_criteria": [
+        "Use delivery_issue when the central issue is shipment progress or arrival.",
+        "Use product_seller_issue when the central issue is seller authenticity, product price, or seller behavior."
+      ],
+      "examples": [
+        {
+          "tweet_id": "1000123",
+          "text": "I just inadvertently bought a Kindle book on my account when I wanted to buy it as a gift, anyway I can change this?"
+        },
+        {
+          "tweet_id": "1001005",
+          "text": "I preordered amazon echo but want to go for amazon plus now. Anyway to reach out to seller?"
+        }
+      ]
+    },
+    {
+      "name": "refund_return",
+      "description": "The customer asks for a refund, reports a missing refund, or wants to return an item.",
+      "inclusion_criteria": [
+        "The requested outcome is money back or a product return.",
+        "The customer says a promised or expected refund has not arrived."
+      ],
+      "exclusion_criteria": [
+        "Use payment_billing when the problem is a charge or payment method and no refund/return is the main request.",
+        "Use delivery_issue when the customer only reports a late or missing shipment."
+      ],
+      "examples": [
+        {
+          "tweet_id": "1000985",
+          "text": "Order id in India not solved refund issue since four months by amazon India"
+        },
+        {
+          "tweet_id": "1000138",
+          "text": "I already connected. Did live chat, you are ready for refund."
+        }
+      ]
+    },
+    {
+      "name": "payment_billing",
+      "description": "The customer reports a charge, payment-method failure, invoice problem, or unexpected billing.",
+      "inclusion_criteria": [
+        "The message focuses on payment authorization, a charge, an invoice, or billing.",
+        "The customer reports an unexpected Prime or order charge."
+      ],
+      "exclusion_criteria": [
+        "Use refund_return when the customer explicitly wants money returned.",
+        "Use order_issue when the payment mention is incidental to a broader order change."
+      ],
+      "examples": [
+        {
+          "tweet_id": "1001082",
+          "text": "I tried to sign up for a Prime trial but I think it's automatically charged for the year!!"
+        },
+        {
+          "tweet_id": "1002898",
+          "text": "Able to place order, but then a few hours later I'm advised to Update My Payment Method. My card is valid and has funds on it!"
+        }
+      ]
+    },
+    {
+      "name": "account_prime",
+      "description": "The customer needs help with account access or Prime membership features and status.",
+      "inclusion_criteria": [
+        "The main problem concerns login, password, account access, or account settings.",
+        "The customer asks about Prime membership status or benefits without a specific billing problem."
+      ],
+      "exclusion_criteria": [
+        "Use payment_billing for an unexpected membership charge.",
+        "Use digital_technical when the problem is a product or application malfunction rather than account access."
+      ],
+      "examples": [
+        {
+          "tweet_id": "1000164",
+          "text": "This is after package was supposedly out for delivery this morning. What am I paying for Prime for?"
+        },
+        {
+          "tweet_id": "1001010",
+          "text": "Prime lists/sells at higher than MRP. Caught. Now bribing me with Rs.100 voucher."
+        }
+      ]
+    },
+    {
+      "name": "digital_technical",
+      "description": "The customer reports a problem with a digital product, device, application, media, or technical feature.",
+      "inclusion_criteria": [
+        "The issue concerns Kindle, Fire TV, Prime Video, an app, downloads, playback, or a broken digital feature.",
+        "The customer reports a technical error or a feature that does not work."
+      ],
+      "exclusion_criteria": [
+        "Use account_prime when the central problem is login or membership access.",
+        "Use order_issue when the problem is an accidental purchase or order action rather than a malfunction."
+      ],
+      "examples": [
+        {
+          "tweet_id": "1000130",
+          "text": "Sign up page appears broken. Cannot sign up. Help!"
+        },
+        {
+          "tweet_id": "1000201",
+          "text": "Does Kindle support Kannada (Unicode rendering) now?"
+        }
+      ]
+    },
+    {
+      "name": "product_seller_issue",
+      "description": "The customer reports a product-quality, authenticity, pricing, or third-party seller problem.",
+      "inclusion_criteria": [
+        "The message alleges a counterfeit, duplicate, defective, or incorrect product.",
+        "The message focuses on product price, seller behavior, or contacting a seller."
+      ],
+      "exclusion_criteria": [
+        "Use delivery_issue when the central problem is shipment timing.",
+        "Use refund_return when the requested outcome is primarily a return or refund."
+      ],
+      "examples": [
+        {
+          "tweet_id": "1000133",
+          "text": "Amazon now sell duplicate product. I bought Biotique Basil And Parsley Soap and they send me duplicate product."
+        },
+        {
+          "tweet_id": "1001009",
+          "text": "Difference between best possible prices and charging higher than MRP."
+        }
+      ]
+    },
+    {
+      "name": "other_unclear",
+      "description": "The message is too vague, mainly feedback or complaint, or does not fit another intent with enough confidence.",
+      "inclusion_criteria": [
+        "The customer provides insufficient detail to identify a specific support problem.",
+        "The message is general feedback, thanks, or a complaint without a clear requested action."
+      ],
+      "exclusion_criteria": [
+        "Do not use this label when a more specific intent is supported by the customer's main request."
+      ],
+      "examples": [
+        {
+          "tweet_id": "1001033",
+          "text": "Thanks. Think I'll just chance it. Frustrating as the route must be sorted so someone somewhere knows when it will arrive approx just not me"
+        }
+      ]
+    }
+  ]
+}

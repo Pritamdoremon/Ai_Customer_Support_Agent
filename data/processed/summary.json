@@ -1,0 +1,12 @@
+{
+  "brand": "AmazonHelp",
+  "raw_file": "data\\raw\\twcs\\twcs.csv",
+  "definition": "Direct non-empty customer message paired with a direct non-empty brand reply.",
+  "cases_found": 168814,
+  "cases_written": 50000,
+  "development_cases": 45159,
+  "evaluation_cases": 4841,
+  "unique_conversations": 23953,
+  "leakage_prevention": "The deterministic split is assigned by conversation root, never by individual tweet.",
+  "limitation": "Direct replies are evidence candidates, not proof that the customer's issue was fully resolved."
+}

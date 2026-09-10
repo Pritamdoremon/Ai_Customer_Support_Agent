@@ -1,0 +1,12 @@
+{
+  "brand": "AmazonHelp",
+  "source_file": "data\\raw\\extracted\\twcs\\twcs.csv",
+  "definition": "A non-empty inbound customer tweet paired with one or more direct non-empty AmazonHelp replies.",
+  "duplicate_reply_handling": "Multiple direct replies to one customer tweet are consolidated into one case, preserving all reply IDs and text.",
+  "cases_written": 154976,
+  "development_cases": 139674,
+  "evaluation_cases": 15302,
+  "unique_conversations": 82534,
+  "leakage_prevention": "The split is assigned from the conversation root, so one thread cannot cross splits.",
+  "limitation": "A direct reply is an evidence candidate, not proof that the issue was fully resolved."
+}
