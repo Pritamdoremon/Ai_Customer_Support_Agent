@@ -1,4 +1,4 @@
-# Hiver SDE Intern Take-Home — AI Customer Support Agent
+
 
 An AI-powered customer support agent built for **AmazonHelp** using historical customer-support conversations from the Kaggle **Customer Support on Twitter** dataset.
 
